@@ -3,7 +3,7 @@ plugins {
     id "io.freefair.lombok" version "8.2.2"
 }
 
-group = 'ru.netology'
+group = 'org.example'
 version = '1.0-SNAPSHOT'
 
 sourceCompatibility = 11

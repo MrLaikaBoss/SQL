@@ -1,7 +1,8 @@
 version: '3.7'
 services:
-  postgres:
+  mysql:
     image: mysql:8.0.18
+    restart: always
     ports:
       - '3306:3306'
     volumes:
